@@ -1,0 +1,300 @@
+.clock {
+  font-family: "Russo One", sans-serif;
+  color: yellow;
+  background-color: red;
+  width: 750px;
+  margin-left: -375px;
+  height: 150px;
+  font-size: 120px;
+  position: absolute;
+  border: 3px solid yellow;
+  border-radius: 25px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: center;
+}
+
+.clock .time {
+  display: inline-block;
+  text-align: center;
+}
+
+.time .colon {
+  -webkit-flex: 1;
+}
+
+.colon {
+  width: 40px;
+}
+
+#period {
+  margin-left: 20px;
+}
+
+#hours {
+  width: 60px;
+}
+
+#minutes {
+  width: 120px;
+}
+
+#seconds {
+  width: 120px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 120px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-content: center;
+}
+
+body {
+  height: 100%;
+  background-image:url("soviet-background.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: repeat-y;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  overflow: hidden;
+}
+
+.banner {
+  font-size: 50px;
+  height: auto;
+  width: 99%;
+  font-family: "Russo One", sans-serif;
+  color: yellow;
+  background-color: red;
+  position: absolute;
+  -webkit-flex: 1;
+  display: flex;
+  display: -webkit-flex;
+  line-height: .1;
+  -webkit-flex-direction: column;
+  margin-top: -30px;
+  -webkit-align-items: center;
+  -webkit-justify-content: flex-start;
+}
+
+.subbanner {
+  display: -webkit-flex;
+}
+
+.subbanner h1 {
+  margin-right: 20px;
+}
+
+.norightmargin {
+  margin-right: 0px;
+}
+
+.banner li {
+  display: inline-block;
+}
+
+.body {
+  display: flex;
+  display: -webkit-flex;
+  height: 80vh;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+  -webkit-flex: 1;
+  -webkit-align-self: center;
+}
+
+.banner h3 {
+  font-family: "Russo One", sans-serif;
+  color: yellow;
+  font-size: 30px;
+}
+
+.banner span {
+  color: white;
+}
+
+.footer {
+  font-size: 35px;
+  width: 100%;
+  height: 50px;
+  font-family: "Russo One", sans-serif;
+  color: yellow;
+  -webkit-flex: 1;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+}
+
+.footer ul li {
+  display: block;
+  text-align: center;
+  margin-left: -5px;
+}
+
+.footer ul span {
+  color: white;
+  font-size: 45px;
+}
+
+audio {
+  display: none;
+}
+
+@media screen and (max-width: 1149px) {
+
+  body {
+    background-image: none;
+    background-color: darkred;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+  .body {
+    height: 69vh;
+  }
+
+  .banner {
+    height: auto;
+    margin-top: -10px;
+    width: 98%;
+    -webkit-flex-wrap: wrap;
+  }
+
+  .subbanner {
+    font-size: 38px;
+  }
+
+  .banner h3 {
+    font-size: 25px;
+  }
+
+  .footer {
+    font-size: 30px;
+  }
+
+  .footer ul {
+    -webkit-flex-direction: column;
+    margin-left: -50px;
+  }
+
+  .footer ul span {
+    font-size: 40px;
+  }
+
+  .clock {
+    width: 686px;
+    font-size: 100px;
+    margin-left: -343px;
+    margin-top: 50px;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 775px) {
+
+  .banner {
+    font-size: 23px;
+    margin-top: -10px
+  }
+
+  .banner h3 {
+    font-size: 20px;
+  }
+
+  .subbanner {
+    font-size: 28px;
+  }
+
+  .clock {
+    width: 450px;
+    font-size: 80px;
+    margin-left: -225px;
+  }
+
+  .footer {
+    font-size: 30px;
+  }
+
+  .footer ul span {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 595px) {
+
+  .banner {
+    font-size: 13px;
+    margin-top: -10px;
+  }
+
+  .banner h1 {
+  }
+
+  .subbanner {
+    -webkit-flex-direction: column;
+    -webkit-align-items: center;
+  }
+
+  .subbanner h1 {
+    margin-bottom: 10px;
+  }
+
+  .banner h3 {
+    margin-top: 40px;
+    font-size: 15px;
+  }
+
+  .clock {
+    width: 370px;
+    font-size: 75px;
+    margin-left: -185px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+  }
+
+  .footer {
+    font-size: 25px;
+  }
+
+  .footer ul span {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-height: 570px) {
+  .body {
+    margin-top: 5vh;
+  }
+}
+
+@media screen and (max-height: 470px) {
+  .body {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (max-height: 370px) {
+  .body {
+    margin-top: 37vh;
+  }
+
+  .footer {
+    margin-top: 15vh;
+  }
+}

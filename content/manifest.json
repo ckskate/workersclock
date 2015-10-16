@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "The Worker's Clock",
+  "version": "1.0.0",
+  "description": "Subvert the Capitalist regime on YOUR time!",
+  "author": "Connor Killion",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "icons" : {
+    "16" : "style/icon16.png",
+    "48" : "style/icon48.png",
+    "128" : "style/icon128.png"
+  }
+}
