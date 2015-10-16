@@ -33,7 +33,7 @@ Just try it, you'll love it, trust me!
 
 ## Download and Installation
 
-1. Download the .crx file [here](https://github.com/ckskate/xkcd-substitutions/blob/master/workersclock.crx?raw=true)
+1. Download the .crx file [here](https://github.com/ckskate/workersclock/blob/master/workersclock.crx?raw=true)
 2. Open Chrome
 3. Navigate to settings
 4. Click 'Extensions'
